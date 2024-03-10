@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 
-                    build 'PES2UG21CS555_1'
+                    build 'mybuilderror'
                     sh "g++ -o output test.cpp"
                     echo 'pipeline build successful'
                 
